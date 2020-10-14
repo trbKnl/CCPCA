@@ -13,7 +13,10 @@ Authors: Niek C. de Schipper, A Tonne, Katrijn Van Deun
 - analyze_results_bias.R: Script to create the tables in the paper 
 - tucker.R: Script to create the tables in the paper 
 - pca_ccreg.cpp: the CCPCA function as used in the paper, users should use the sparseWeightBasedPCA package 
+- pca_ccreg.cpp: the CCPCA function as used in the paper, users should use the `sparseWeightBasedPCA` package 
+- pcaccregPackage: contains the pca_ccreg.cpp function wrapped in a package, users should use the `sparseWeightBasedPCA` package 
 
 #### Not included (send an email if you want them)
 - sim_res: Raw results from the simulation study
 - sim_res_rawdata: Raw data from the simulation study 
+
